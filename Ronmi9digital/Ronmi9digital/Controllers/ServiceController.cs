@@ -20,7 +20,7 @@ namespace Ronmi9digital.Controllers
             {
                 return Request.CreateResponse<Error>(HttpStatusCode.BadRequest, new Error
                 {
-                    error = "Could not decode request: JSON parsing failed"
+                    error = "Could not decode request: JSON parsing fail"
                 });
             }
             try
